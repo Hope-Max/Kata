@@ -1,8 +1,8 @@
 const repeatNumbers = function(data) {
   let stringOfNum = '';
   let stringChainOfNum = '';
-
   let m = 1;
+  
   while (m <= data[0][1]) {
     stringOfNum += data[0][0];
     m++;
